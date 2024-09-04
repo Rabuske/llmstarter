@@ -12,10 +12,10 @@ $(document).ready(async function () {
     systemPrompt: "",
 
     // This is the llmstarterA OpenAI key: you should replace this with your team's assigned key if you're not assigned to the "A" key:
-    yourOpenAIKey: "sk-oa08nZ-M8CInbEHpolL9VkdIKBrCuNlo1Qbih1vrkET3BlbkFJeCI1kIaCYvcpz9RGtcHTsOfXPmnlK4Q_sBTDchlQAA", // TODO SECURITY HOLE: need to move to server to protect this
+    yourOpenAIKey: TODO,
     skipOpenAIInvocation: true,
 
-    pineConeAPIKey: 'b12524c4-3a44-4cff-b767-b5d84c082b94', // For lorien+pinecone@gmail.com account
+    pineConeAPIKey: TODO, // For lorien+pinecone@gmail.com account
     pineConeURL: 'https://llmstarter-me0sdas.svc.aped-4627-b74a.pinecone.io/query', // For lorien+pinecone@gmail.com account
     skipKBLookup: true, // If true, then don't do the KB lookup TODO fix for later
 
